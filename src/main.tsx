@@ -1,0 +1,5 @@
+import React from 'react';
+import { render } from 'react-dom';
+import PlayPage from './pages/play_page/play_page';
+
+render(<PlayPage />, document.getElementById('root'));
