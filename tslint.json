@@ -1,10 +1,12 @@
 {
     "defaultSeverity": "error",
-    "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
     "rulesDirectory": ["tslint-plugin-prettier"],
     "jsRules": {},
     "rules": {
         "prettier": true,
-        "deprecation": true
+        "deprecation": true,
+        "interface-name": false,
+        "ordered-imports": false
     }
 }
