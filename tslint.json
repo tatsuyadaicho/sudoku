@@ -8,5 +8,8 @@
         "deprecation": true,
         "interface-name": false,
         "ordered-imports": false
+    },
+    "linterOptions": {
+        "exclude": ["./node_modules"]
     }
 }

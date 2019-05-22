@@ -1,0 +1,9 @@
+@import '../../styles/color.css';
+
+.button-base {
+    color: var(--text-color);
+    background-color: var(--main-color);
+    border-radius: 4px;
+
+    padding: 4px 8px;
+}

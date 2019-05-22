@@ -21,9 +21,24 @@ module.exports = {
                     },
                 ],
             },
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            import: true,
+                            modules: true,
+                            camelCase: true,
+                            sourceMap: true,
+                        },
+                    },
+                ],
+            },
         ],
     },
     resolve: {
-        extensions: ['.ts', '.tsx', '.jsx', '.js', '.json'],
+        extensions: ['.ts', '.tsx', '.jsx', '.js', '.json', '.css'],
     },
 };
