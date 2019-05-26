@@ -8,6 +8,7 @@
     "start": "webpack-dev-server --hot --inline --watch-content-base --content-base dist/ --open-page index.html",
     "build": "webpack",
     "watch": "webpack -w",
+    "test": "jest",
     "lint": "tslint --project ./tsconfig.json",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
