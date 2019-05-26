@@ -7,7 +7,9 @@
         "prettier": true,
         "deprecation": true,
         "interface-name": false,
-        "ordered-imports": false
+        "ordered-imports": false,
+        "member-ordering": false,
+        "object-literal-sort-keys": false
     },
     "linterOptions": {
         "exclude": ["./node_modules"]

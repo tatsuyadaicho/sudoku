@@ -28,8 +28,7 @@ module.exports = {
                             url: true,
                             import: true,
                             modules: true,
-                            localIdentName:
-                                '[path][name]__[local]--[hash:base64:5]',
+                            localIdentName: '[name]__[local]--[hash:base64:5]',
                             camelCase: true,
                             sourceMap: true,
                         },
